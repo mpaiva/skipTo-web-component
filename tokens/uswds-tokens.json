@@ -115,12 +115,12 @@
     "components": {
       "skip-to": {
         "skipToFontFamily": "{typography.theme-body-font-family}",
-        "skipToMenuTextColor": "{theme.uswds-light.theme-text-color}",
-        "skipToButtonBackgroundColor": "{theme.uswds-light.theme-body-background-color}",
-        "skipToMenuBackgroundColor": "{theme.uswds-light.theme-body-background-color}",
-        "skipToFocusBorderColor": "{theme.uswds-light.theme-focus-color}",
-        "skipToMenuitemFocusBackgroundColor": "{theme.uswds-light.theme-focus-color}",
-        "skipToMenuitemFocusTextColor": "{theme.uswds-light.theme-text-reverse-color}"
+        "skipToMenuTextColor": "{colors.theme.uswds-light.theme-text-color}",
+        "skipToButtonBackgroundColor": "{colors.theme.uswds-light.theme-body-background-color}",
+        "skipToMenuBackgroundColor": "{colors.theme.uswds-light.theme-body-background-color}",
+        "skipToFocusBorderColor": "{colors.theme.uswds-light.theme-focus-color}",
+        "skipToMenuitemFocusBackgroundColor": "{colors.theme.uswds-light.theme-focus-color}",
+        "skipToMenuitemFocusTextColor": "{colors.theme.uswds-light.theme-text-reverse-color}"
       }
     }
   },
