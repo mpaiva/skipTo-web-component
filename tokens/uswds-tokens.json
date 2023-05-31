@@ -109,6 +109,7 @@
         "theme-text-color": "{colors.uswds-util.text-ink}",
         "theme-body-background-color": "{colors.uswds-util.bg-gray-5}",
         "theme-focus-color": "{colors.uswds-util.bg-gold}",
+        "theme-focus-background-color": "{colors.uswds-util.bg-primary-vivid}",
         "theme-text-reverse-color": "{colors.uswds-util.text-white}"
       }
     },
@@ -119,7 +120,7 @@
         "skipToButtonBackgroundColor": "{colors.theme.uswds-light.theme-body-background-color}",
         "skipToMenuBackgroundColor": "{colors.theme.uswds-light.theme-body-background-color}",
         "skipToFocusBorderColor": "{colors.theme.uswds-light.theme-focus-color}",
-        "skipToMenuitemFocusBackgroundColor": "{colors.theme.uswds-light.theme-focus-color}",
+        "skipToMenuitemFocusBackgroundColor": "{colors.theme.uswds-light.theme-focus-background-color}",
         "skipToMenuitemFocusTextColor": "{colors.theme.uswds-light.theme-text-reverse-color}"
       }
     }
