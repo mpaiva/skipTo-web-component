@@ -106,19 +106,19 @@
     },
     "uswds-tokens": {
       "theme-body-font-family": "Lobster",
-      "theme-text-color": "{uswds-util.text-ink}",
-      "theme-body-background-color": "{uswds-util.bg-gray-5}",
-      "theme-focus-color": "{uswds-util.bg-gold}",
-      "theme-text-reverse-color": "{uswds-util.text-white}"
+      "theme-text-color": "{colors.uswds-util.text-ink}",
+      "theme-body-background-color": "{colors.uswds-util.bg-gray-5}",
+      "theme-focus-color": "{colors.uswds-util.bg-gold}",
+      "theme-text-reverse-color": "{colors.uswds-util.text-white}"
     },
     "skip-to": {
-      "skipToFontFamily": "{uswds-tokens.theme-body-font-family}",
-      "skipToMenuTextColor": "{uswds-tokens.theme-text-color}",
-      "skipToButtonBackgroundColor": "{uswds-tokens.theme-body-background-color}",
-      "skipToMenuBackgroundColor": "{uswds-tokens.theme-body-background-color}",
-      "skipToFocusBorderColor": "{uswds-tokens.theme-focus-color}",
-      "skipToMenuitemFocusBackgroundColor": "{uswds-tokens.theme-focus-color}",
-      "skipToMenuitemFocusTextColor": "{uswds-tokens.theme-text-reverse-color}"
+      "skipToFontFamily": "{colors.uswds-tokens.theme-body-font-family}",
+      "skipToMenuTextColor": "{colors.uswds-tokens.theme-text-color}",
+      "skipToButtonBackgroundColor": "{colors.uswds-tokens.theme-body-background-color}",
+      "skipToMenuBackgroundColor": "{colors.uswds-tokens.theme-body-background-color}",
+      "skipToFocusBorderColor": "{colors.uswds-tokens.theme-focus-color}",
+      "skipToMenuitemFocusBackgroundColor": "{colors.uswds-tokens.theme-focus-color}",
+      "skipToMenuitemFocusTextColor": "{colors.uswds-tokens.theme-text-reverse-color}"
     }
   }
 }
