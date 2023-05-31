@@ -103,24 +103,28 @@
       "bg-indigo": "#676cc8",
       "bg-violet": "#8168b3",
       "bg-magenta": "#d72d79"
-    },
-    "typography": {
-      "theme-body-font-family": "Lobster"
-    },
-    "uswds-tokens": {
+    }
+  },
+  "typography": {
+    "theme-body-font-family": "Lobster"
+  },
+  "theme": {
+    "uswds-light": {
       "theme-text-color": "{colors.uswds-util.text-ink}",
       "theme-body-background-color": "{colors.uswds-util.bg-gray-5}",
       "theme-focus-color": "{colors.uswds-util.bg-gold}",
       "theme-text-reverse-color": "{colors.uswds-util.text-white}"
-    },
+    }
+  },
+  "components": {
     "skip-to": {
-      "skipToFontFamily": "{typography.uswds-tokens.theme-body-font-family}",
-      "skipToMenuTextColor": "{colors.uswds-tokens.theme-text-color}",
-      "skipToButtonBackgroundColor": "{colors.uswds-tokens.theme-body-background-color}",
-      "skipToMenuBackgroundColor": "{colors.uswds-tokens.theme-body-background-color}",
-      "skipToFocusBorderColor": "{colors.uswds-tokens.theme-focus-color}",
-      "skipToMenuitemFocusBackgroundColor": "{colors.uswds-tokens.theme-focus-color}",
-      "skipToMenuitemFocusTextColor": "{colors.uswds-tokens.theme-text-reverse-color}"
+      "skipToFontFamily": "{typography.theme-body-font-family}",
+      "skipToMenuTextColor": "{theme.uswds-light.theme-text-color}",
+      "skipToButtonBackgroundColor": "{theme.uswds-light.theme-body-background-color}",
+      "skipToMenuBackgroundColor": "{theme.uswds-light.theme-body-background-color}",
+      "skipToFocusBorderColor": "{theme.uswds-light.theme-focus-color}",
+      "skipToMenuitemFocusBackgroundColor": "{theme.uswds-light.theme-focus-color}",
+      "skipToMenuitemFocusTextColor": "{theme.uswds-light.theme-text-reverse-color}"
     }
   }
 }
