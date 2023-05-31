@@ -1,5 +1,5 @@
 {
-  "util": {
+  "uswds-util": {
     "text-base-lightest": "#f0f0f0",
     "text-base-lighter": "#dfe1e2",
     "text-base-light": "#a9aeb1",
@@ -103,7 +103,7 @@
     "bg-violet": "#8168b3",
     "bg-magenta": "#d72d79"
   },
-  "tokens": {
+  "uswds-tokens": {
     "theme-body-font-family": "Lobster",
     "theme-text-color": "{util.text-ink}",
     "theme-body-background-color": "{util.bg-gray-5}",
