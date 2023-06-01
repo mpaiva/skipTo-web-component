@@ -108,7 +108,7 @@
       "uswds-light": {
         "theme-text-color": "{colors.uswds-util.text-ink}",
         "theme-body-background-color": "{colors.uswds-util.bg-gray-5}",
-        "theme-focus-color": "{colors.uswds-util.bg-gold}",
+        "theme-focus-color": "{colors.uswds-util.bg-mint}",
         "theme-focus-background-color": "{colors.uswds-util.bg-primary-vivid}",
         "theme-text-reverse-color": "{colors.uswds-util.text-white}"
       }
