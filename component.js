@@ -24,9 +24,9 @@ class SkipTo extends HTMLElement {
   }
   
   resolveNestedPaths(obj, path) {
+    // Follow nested value paths within object until all values are found and properly assigned, then return the resolved object
     const keys = path.split('.');
     let value = obj;
-  
     for (const key of keys) {
       if (typeof value === 'undefined') {
         return undefined;
@@ -40,6 +40,21 @@ class SkipTo extends HTMLElement {
     }
   
     return value;
+  }
+
+  setUserDefinedValues() {
+    let r = document.querySelector(':root');
+    if (this.getAttribute('font-family')) r.style.setProperty('--skipToFontFamily', this.getAttribute('font-family'))
+    if (this.getAttribute('font-size')) r.style.setProperty('--skipToFontSize', this.getAttribute('font-size'))
+    if (this.getAttribute('button-background')) r.style.setProperty('--skipToButtonBackgroundColor', this.getAttribute('button-background'))
+    if (this.getAttribute('text-color')) r.style.setProperty('--skipToMenuTextColor', this.getAttribute('text-color'))
+    if (this.getAttribute('focus-border-color')) r.style.setProperty('--skipToFocusBorderColor', this.getAttribute('focus-border-color'))
+    if (this.getAttribute('focus-text-color')) r.style.setProperty('--skipToMenuTextColor', this.getAttribute('focus-text-color'))
+    if (this.getAttribute('menu-background')) r.style.setProperty('--skipToMenuBackgroundColor', this.getAttribute('menu-background'))
+    if (this.getAttribute('item-focus-background')) r.style.setProperty('--skipToMenuitemFocusBackgroundColor', this.getAttribute('item-focus-background'))
+    if (this.getAttribute('item-focus-text-color')) r.style.setProperty('--skipToMenuitemFocusTextColor', this.getAttribute('item-focus-text-color'))
+    
+    
   }
 
   connectedCallback() {
@@ -97,6 +112,7 @@ class SkipTo extends HTMLElement {
     let skipToPosition = "calc((100vw - 135px)/2)";
 
     if (this.getAttributeNames().length) {
+      // if the user defined a design token path, let's use those
       if (this.getAttribute('token-path')) {
         let path = this.getAttribute('token-path');
         fetch(path)
@@ -113,8 +129,11 @@ class SkipTo extends HTMLElement {
               r.style.setProperty(`--${key}`, value);
             }
 
+            // now apply any user set values
+            this.setUserDefinedValues()
+          
           });
-      }
+      } else this.setUserDefinedValues()
     }
 
     // Attach skipTo object to page
