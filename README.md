@@ -7,6 +7,20 @@ This menu makes it easier for keyboard and screen reader users to quickly jump t
 ## Bonus
 This web-component was created to be used with the U.S. [Web Design System (USWDS)](https://designsystem.digital.gov/), as the Design Tokens are integrated as props for the web-components.
 
+### SkipTo Variables Token Mapping
+SkipTo web-component variables and USWDS design token mapping
+
+| SkipTo Variable                    | USWDS Token                  |
+|------------------------------------|------------------------------|
+| skipToFontFamily                   | $theme-body-font-family      |
+| skipToMenuTextColor                | $theme-text-color            |
+| skipToButtonBackgroundColor        | $theme-body-background-color |
+| skipToButtonBackgroundColor:hover  | $theme-focus-color           |
+| skipToMenuBackgroundColor          | $theme-body-background-color |
+| skipToFocusBorderColor             | $theme-focus-color           |
+| skipToMenuitemFocusBackgroundColor | $theme-focus-color           |
+| skipToMenuitemFocusTextColor       | $theme-text-reverse-color    |
+
 ## Feedback
 Please do not hesitate to [raise issues](https://github.com/mpaiva/skipTo-web-component/issues/new/choose) and comment on Github if something doesn't work or you have ideas on how to improve this web-component.
 
