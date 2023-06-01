@@ -2,16 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>SkipTo MZ Example Page</title>
+    <title>SkipTo Example Page</title>
     <!-- <link href="skipTo.css" rel="stylesheet"/> -->
     <!-- <script type="text/javascript" src="skipto.js"></script> -->
     <script type="text/javascript" src="component.js"></script>
 </head>
 <body>
-    <skip-to theme="bananas"></skip-to>
+    <skip-to font-family="'Cabin', serif" token-path="/tokens/uswds-tokens.json"></skip-to>
     <header role="banner">
         <hgroup>
-            <h1>SkipTo MZ Example</h1>
+            <h1>SkipTo Example</h1>
         </hgroup>
     </header>
     <nav aria-labelledby="id-test-pages-label">
@@ -185,38 +185,5 @@
         Copyright &copy; 2013
       </div>
     </footer>
-    <script>
-		var skipToButtonLabel = "Skip to a section"
-		var skipToFontFamily = "var(--skipToFontFamily)"
-		var skipToFontSize = "var(--skipToFontSize)"
-		var skipToButtonBackgroundColor = "var(--skipToButtonBackgroundColor)"
-		var skipToMenuTextColor = "var(--skipToMenuTextColor)"
-		var skipToFocusBorderColor = "var(--skipToFocusBorderColor) !important"
-		var skipToMenuBackgroundColor = "var(--skipToMenuBackgroundColor)"
-		var skipToMenuitemFocusBackgroundColor = "var(--skipToMenuitemFocusBackgroundColor)"
-		var skipToMenuitemFocusTextColor = "var(--skipToMenuitemFocusTextColor)"
-		var skipToPosition = "calc((100vw - 135px)/2)"
-		var SkipToConfig = {
-		  settings: {
-			skipTo: {
-				landmarks:
-				"[role=alert],[role=main],main,[role=banner],header,nav,[role=navigation],section,[role=region],[role=search],aside,[role=complementary],footer,[role=contentinfo]",
-				headings: "h1, h2, h3, h4, h5, h6",
-				positionLeft:skipToPosition,
-				containerRole: "navigation",
-				fontFamily:skipToFontFamily,
-                fontSize:skipToFontSize,
-				buttonLabel:skipToButtonLabel,
-				menuTextColor:skipToMenuTextColor,
-				buttonBackgroundColor:skipToButtonBackgroundColor,
-				menuitemFocusTextColor:skipToMenuitemFocusTextColor,
-				focusBorderColor:skipToFocusBorderColor,
-				menuBackgroundColor:skipToMenuBackgroundColor,
-				menuitemFocusBackgroundColor:skipToMenuitemFocusBackgroundColor,
-				menuitemFocusTextColor:skipToMenuitemFocusTextColor,
-			},
-		  },
-		}
-	  </script>
 </body>
 </html>

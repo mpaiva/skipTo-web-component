@@ -1,22 +1,4 @@
 
-:root {
-
-    --black: #121212;
-    --accent: #bb86fc;
-
-    --skipToFontFamily:'Verdana', sans-serif;
-    --skipToFontSize: 1rem;
-
-    --skipToButtonBackgroundColor: var(--black);
-
-    --skipToFocusBorderColor: var(--accent);
-
-    --skipToMenuBackgroundColor: var(--black);
-    --skipToMenuitemFocusBackgroundColor: rgba(255,255,255,.1);
-
-    --skipToMenuTextColor: white;
-    --skipToMenuitemFocusTextColor:white;
-}
 
 body {
     color: #000;
